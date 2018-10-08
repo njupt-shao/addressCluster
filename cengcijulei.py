@@ -2,7 +2,7 @@ import json
 from scipy.cluster.hierarchy import linkage, dendrogram
 import matplotlib.pyplot as plt
 import pandas as pd
-samples = 5000
+samples = 50
 jsonfile = open("address.json","r",encoding='utf-8')
 
 jsonobj = json.load(jsonfile)
